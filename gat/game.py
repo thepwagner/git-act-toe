@@ -38,7 +38,7 @@ class PersistentGame(object):
         for c in self.game.board.cells:
             if c == ' ':
                 b += '.'
-            elif c == 'x' or c == 'y':
+            elif c == 'x' or c == 'o':
                 b += c
         return b
 

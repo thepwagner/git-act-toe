@@ -27,6 +27,9 @@ if __name__ == '__main__':
             e = game.game.moveto(row+1, col+1)
             if e['name'] == EVENT_NAME_NEXT_TURN:
                 print(game.render())
+                sys.exit(0)
             else:
                 print(e)
                 sys.exit(1)
+    print('no move detected')
+    sys.exit(1)
