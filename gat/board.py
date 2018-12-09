@@ -9,7 +9,7 @@ padding = re.compile('[^\\.xo]*')
 
 def load_board(game_in):
     board_data = ''
-    for line in game_in.decode('ascii').split('\n'):
+    for line in game_in:
         line = place_x.sub('x', line)
         line = place_o.sub('o', line)
         line = empty.sub('.', line)
