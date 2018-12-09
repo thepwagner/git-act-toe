@@ -1,4 +1,4 @@
-{"board": ".........", "id": "be4cde7e-db1e-45ba-979d-f53c287af35a", "signature": "m17jS3x5ckPNJiw650QA7Y6arOQvcCuayv9QRr+7UrodihxUirmIy8ol70pQy+XLqLOrPgAl+Cl2DdbdhA6UcQ==", "turn": "x"}
+{"board": ".....x...", "id": "be4cde7e-db1e-45ba-979d-f53c287af35a", "signature": "T7OZNkEHs9qdcAvMQmFWSESyFEUnCdStSMVD6eRF4S6WGOJYzPKmtwHve7UUVmx6rTPPT417GT4zkUWQUJbv+Q==", "turn": "o"}
 
 ```
    |   |   
