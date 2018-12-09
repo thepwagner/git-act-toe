@@ -1,9 +1,0 @@
-{"board": ".........", "id": "3ad7c6c6-c367-4e70-9cd6-573503997671", "signature": "4+xLev8pxdZDuj4WtVXOQhdFrJ0Rk1w98ouvVj6DlndFlwuVkhaKWGSQlSNj+6lZYY4qJ8NAQnUfWuHL8QQ/iw==", "turn": "x"}
-
-```
-   |   |
----+---+---
-   |   |
----+---+---
-   |   |
-```
