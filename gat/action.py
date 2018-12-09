@@ -10,7 +10,7 @@ from xo.game import EVENT_NAME_NEXT_TURN, STATE_GAMEOVER
 
 if __name__ == '__main__':
     # Load game file from commit:
-    r = Repo('..')
+    r = Repo()
     game_data = (r.head.commit.tree / 'game.txt').data_stream.read().decode('utf-8').split('\n')
 
     # First line is signed game state:
