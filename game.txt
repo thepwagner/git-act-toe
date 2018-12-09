@@ -1,7 +1,7 @@
 {"board": "....x....", "id": "0b76f143-a1a2-4375-9c0b-d514afecc774", "signature": "zP7RbCsCGuCsC0Q8orxCgZ8TRatfuDj10KEfSLCOmnEZu8wkHfy+H82GA6WESfoC7FJOnW6h3hDYfwWtMyZ/4w==", "turn": "o"}
 
 ```
-   |   |   
+   |   | o 
 ---+---+---
    | x |   
 ---+---+---
