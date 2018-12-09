@@ -26,7 +26,7 @@ class PersistentGame(object):
             'board': self._board(),
             'turn': self.game.turn
         }
-        signature = hmac.digest(key, json.dumps(state, sort_keys=True).encode('utf-8'), hashlib.sha512)
+        signature = hmac.new(key, json.dumps(state, sort_keys=True).encode('utf-8'), hashlib.sha512).digest()
         state['signature'] = base64.standard_b64encode(signature).decode('utf-8')
         return json.dumps(state, sort_keys=True)
 
@@ -49,7 +49,7 @@ class PersistentGame(object):
         # Verify signature:
         signature = state['signature']
         del state['signature']
-        calculated = hmac.digest(key, json.dumps(state, sort_keys=True).encode('utf-8'), hashlib.sha512)
+        calculated = hmac.new(key, json.dumps(state, sort_keys=True).encode('utf-8'), hashlib.sha512).digest()
         if base64.standard_b64encode(calculated).decode('utf-8') != signature:
             raise Exception('signature mismatch')
 

@@ -5,5 +5,5 @@ workflow "play" {
 
 action "take turn" {
   uses = "./"
+  secrets = ["GITHUB_TOKEN"]
 }
-
