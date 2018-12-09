@@ -1,7 +1,7 @@
-{"board": "....x....", "id": "00b00678-6b74-45c7-9622-08ede684f8d7", "signature": "SUDhfzlU1l405Bid2WfaFv40mGNwNviSFh9/waZf7qQYoSRPulwNeoHtvHTHYTCJqUBDmNicw32ow8kFWWzmyQ==", "turn": "o"}
+{"board": "..o.x....", "id": "00b00678-6b74-45c7-9622-08ede684f8d7", "signature": "ZHTB2B6fkIJnCm5hN71ND+w2oI1ZPaynBfXlEedy/LJtpuP5rvjTAmVdis892fntDjoKUwo+fUIAVxs0/yKGMA==", "turn": "x"}
 
 ```
-   |   | o  
+   |   | o 
 ---+---+---
    | x |   
 ---+---+---
