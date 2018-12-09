@@ -1,9 +1,9 @@
 {"board": "....x....", "id": "eed0d626-3030-41b1-ab22-f6fd9eb2051e", "signature": "7eWDQwASKTfEWF60E8hu1+M/3GFRSd1qGEv5ZpSE69SeUvo9zkcVhVpwNQLxXjSVIcIIaLnnnAFdrGtkR0PpmA==", "turn": "o"}
 
 ```
-   |   |   
+   |   | o  
 ---+---+---
-   | o |   
+   | x |   
 ---+---+---
    |   |   
 ```
