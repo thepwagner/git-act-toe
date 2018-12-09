@@ -25,9 +25,8 @@ if __name__ == '__main__':
             col = i % 3
             row = int((i - col) / 3)
             e = game.game.moveto(row+1, col+1)
-            print(e)
             if e['name'] == EVENT_NAME_NEXT_TURN:
                 print(game.render())
-                # TODO: commit and push this new state
-            elif game.game.state == STATE_GAMEOVER:
+            else:
+                print(e)
                 sys.exit(1)
