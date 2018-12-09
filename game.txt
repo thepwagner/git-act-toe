@@ -1,0 +1,10 @@
+{"board": ".........", "id": "0b76f143-a1a2-4375-9c0b-d514afecc774", "signature": "sjWI/IoZzVXI+wOOTLwsGTvTS96GuUwuumpmRk1eRGa+1p86tbDmA3j4B6wi87rK6H/x9rmuIa+oCzfAjoOvMA==", "turn": "x"}
+
+```
+   |   |   
+---+---+---
+   |   |   
+---+---+---
+   |   |   
+```
+
